@@ -9,7 +9,7 @@ const Single = () => {
     const [surahNameEng, setSurahNameEng] = useState("");
 
     // API Endpoint
-    const getSingleAyah = `http://api.alquran.cloud/v1/surah/${surahid}`;
+    const getSingleAyah = `https://api.alquran.cloud/v1/surah/${surahid}`;
     
     // API Request
     const fetchAyah = async () =>{

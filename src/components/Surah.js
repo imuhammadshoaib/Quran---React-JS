@@ -9,7 +9,7 @@ const Surah = () =>{
     const [verse, setVerse] = useState([]);
 
     // API Endpoint
-    const surah = `http://api.alquran.cloud/v1/surah`;
+    const surah = `https://api.alquran.cloud/v1/surah`;
     
     // API Request
     const fetchIndoPak = async () =>{
