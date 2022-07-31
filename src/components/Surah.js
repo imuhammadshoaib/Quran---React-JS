@@ -2,7 +2,7 @@ import React from "react";
 import Axios from "axios";
 import { useEffect , useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Logo from "./Logo";
 
 const Surah = () =>{
 
@@ -26,7 +26,7 @@ const Surah = () =>{
     }, []);
 return(
     <>
-            <Navbar/>
+            <Logo/>
             { verse.map((value , index) => {
                return(
                 <div className="col-md-4 pe-md-0">
