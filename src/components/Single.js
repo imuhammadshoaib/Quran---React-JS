@@ -17,7 +17,7 @@ const Single = () => {
 
     // API Endpoint
     const getSingleAyah = `https://api.alquran.cloud/v1/surah/${surahid}/ar.ahmedali`;
-    const getSingleTranslation = `http://api.alquran.cloud/v1/surah/${surahid}/en.ahmedali`
+    const getSingleTranslation = `https://api.alquran.cloud/v1/surah/${surahid}/en.ahmedali`
 
     // API Request
     const fetchAyah = async () => {
